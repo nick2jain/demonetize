@@ -5,11 +5,11 @@ import unicodedata
 import argparse
 
 
-consumer_key = "jkqVd4CcQgAB3YbA6faropijy"
-consumer_secret = "c3hNMooL5RL48ge4QLy3x2zfly7ibvaa5HTPUqvoBn2Nmm7QZN"
-access_token = "149064720-eismGSy19FVRO7HAUoVnbYuqufrMXA8kasAK3pu9"
-access_token_secret = "A6N3Eaa6CDuFaDMhMG0mo6KJHYYYWVK82VsBeb8Jkv7Fj"
-
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
+#your twitter app tokens
 
 t = Twitter(auth=OAuth(access_token, access_token_secret, consumer_key, consumer_secret))
 parser = argparse.ArgumentParser()
