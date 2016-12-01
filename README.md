@@ -1,6 +1,7 @@
 # demonetize
+The aim is to do sentimental analysis of tweets using classical Naive bias algorith
 
-sentimental analysis of tweets
+The code takes into account the command line arguments as input, Search for tweets containing those #tags, analyze the tweets and return the positive and negative probabilities.
 
 to run the file :
 
